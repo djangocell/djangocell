@@ -1,0 +1,10 @@
+django
+django-cors-headers
+django-filter
+django-tables2
+dj-database-url
+gunicorn
+markdown
+psycopg2
+requests
+whitenoise

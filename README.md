@@ -1,16 +1,35 @@
-### Hi there 👋
+# Cell Front
 
-<!--
-**djangocell/djangocell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My profile: https://www.linkedin.com/in/jaehunsim/
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## Settings
+
+설정 파일은 `settings/settings.py`에 있습니다.
+
+url 연결의 경우 `settings/urls.py`확인하면 됩니다. `web/`폴더와 연결되어 있습니다.  
+
+
+
+## 기술스택
+
+### 1. Django
+
+django: model, view를 통해 연산 진행
+
+django-tables2
+
+
+
+### 2. DB
+
+
+
+### 3. Server
+
+gunicorn: WSGI Middleware
+
+whitenoise: static file 제공
+
+django-cors-headers: CORS 설정 (Cross-Origin Resource Sharing, Front, Back 자원교환용)  
